@@ -19,13 +19,13 @@
     "electron-updater": "^6.3.9"
   },
   "build": {
-    "appId": "com.tudominio.atlascanino",
+    "appId": "com.atlascanino.deskapp",
     "productName": "Atlas Canino",
     "publish": [
       {
         "provider": "github",
-        "owner": "TU_USUARIO_GITHUB",
-        "repo": "TU_REPO"
+        "owner": "YaelPerez",
+        "repo": "APP-Atlas-Canino"
       }
     ],
     "win": {
