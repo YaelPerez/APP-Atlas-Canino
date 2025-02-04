@@ -21,9 +21,9 @@ function createWindow() {
 app.whenReady().then(() => {
     createWindow();
 
-    if (!isDev) {
+    //if (!isDev) {
         autoUpdater.checkForUpdatesAndNotify();
-    }
+    //}
 });
 
 // Manejo de eventos del autoUpdater
